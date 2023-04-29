@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "dotted-font";
+    src: url("fonts/enhanced-dot-digital-7.regular.ttf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+html,
+body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(120deg, #0F2027, #203A43, #2C5364);
+    filter: brightness(0.8)
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer{
+    text-align: center;
+    font-family: "dotted-font";
+    font-size: 150px;
+    color: white;
+    text-shadow: 0px 0px 10px whitesmoke,0px 0px 10px whitesmoke,0px 0px 10px whitesmoke    
+}
